@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+  “justify”는 메인축(오뎅꼬치) 방향으로 정렬
+  “align”은 수직축(오뎅을 뜯어내는) 방향으로 정렬
+*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main {
+    
+} */
+
+div.container {
+    display: flex;
+    flex-flow: column wrap;
+    /* 'flex-flow'로 아래 두 속성을 한꺼번에 지정할 수 있다.
+    flex-direction: column;
+    flex-wrap: wrap; 
+    */
+    justify-content: center;
+    align-items: center;
+}
