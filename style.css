@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
 
 /* 
   “justify”는 메인축(오뎅꼬치) 방향으로 정렬
@@ -17,10 +17,14 @@ body {
     align-items: center;
 }
 
-/* main {
-    
-} */
+main {
+   /* border: 5px; */
+   /* border-color: red; */
+}
 
+h1 {
+    border: 25px;
+}
 div.container {
     display: flex;
     flex-flow: column wrap;
@@ -31,3 +35,7 @@ div.container {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* 추가된 todo 목록 */
