@@ -9,9 +9,18 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    background-image: url("sand-clock.jpg");
+    background-size: cover;
+
 }
 
-/* 메인 컨테이너 */
+.container, footer {
+    background-color: white;
+    opacity: 90%;
+    width: auto;
+}
+
+/* container */
 div.container {
     display: flex;
     flex-flow: column wrap;
@@ -21,6 +30,8 @@ div.container {
     */
     justify-content: center;
     align-items: center;
+    border-radius: 10%;
+    padding: 5rem;
 }
 
 h1 {
@@ -41,26 +52,55 @@ i {
 .info {
     margin: 30px;
     padding: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input_button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
     border: none;
     padding: 16px 16px 16px 16px;
-    height: 60px;
+    height: 50px;
     font-size: 30px;
     font-style: italic;
     color: lightgray;
     text-align: center;
     box-shadow: inset 0 -2px 5px;
+    margin: 2rem;
 }
 
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+    margin: 2rem;
+    cursor: pointer;
+}
 
+/* #button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    width: 50px;
+} */
 
 /* footer */
 footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 3rem;
 }
 .origin {
     color: lightgray
